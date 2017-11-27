@@ -1,24 +1,54 @@
+
+<!DOCTYPE html>
 <html>
+
 <head>
-  <div class="topnav" id="myTopnav">
-  <a href="#about">About</a>
-  <a class="active" href="#store">Store</a>
-    <div class="divider"></div>
-  <a class="gmail" href="#gmail">Gmail</a>
-  <a class="images" href="#images">Images</a>
-  </div>
-<style type="text/css">
-</style>
+  <meta charset="utf-8">
+  <title>NOT Google Homepage</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-  <body>
-    <h1> <img src="https://www.blog.google/static/blog/images/google-200x200.7714256da16f.png"></h1>
-    <div id="title">
-   <input type="text" name="Searchbox">
-      <br><br>
-   <input type="submit" value= "Google Search">
-      <input type="submit" value="I'm Feeling Lucky">
-      <p> Learn about 
-        <a href="https://developers.googleblog.com/2017/11/reminder-grow-with-google-scholarship_13.html?utm_source=HPP&utm_medium=HPP&utm_campaign=Grow%20with%20Google%20scholarship"> Grow with Google developer scholarships.           </a>
-      </p>
+
+<body>
+  <nav>
+    <ul>
+      <li><button id="signbtn"><strong>Sign in</strong></button></li>
+      <li><a id="apps" href="#" title="Google apps"><img src="images/googleapps.png" width="25" height="25" alt="app options"></a></li>
+      <li><a class="navigation" href="#">Images</a></li>
+      <li><a class="navigation" href="#">Gmail</a></li>
+    </ul>
+  </nav>
+	
+  <main>
+    <div id="logo">
+      <img src="images/googlelogo.png">
+    <div>
+      <br />
+    <form>       
+      <input id="searchbar" type="search" name="srch" spellcheck="false">
+      <br />
+      <br />
+      <input class="searchbtn" type="button" value="Google Search">
+      <input class="searchbtn" type="button" value="I'm Feeling Lucky">
+    </form>
+  </main>
+    
+  <footer>
+    <div id="left">
+      <ul>
+        <li><a href="#">Advertising</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+    <div id="right">
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </div>
+  </footer>
+	
 </body>
+
 </html>
