@@ -1,0 +1,15 @@
+.topnav{
+  text-align:left;
+}
+  .divider{
+    width: 1550px;
+    height:auto;
+    display:inline-block;
+}
+h1{
+  color: blue;
+  text-align: center;
+}
+div{ 
+  text-align: center;
+}
